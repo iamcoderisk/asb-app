@@ -1,0 +1,342 @@
+@font-face {
+  font-family: "ProductSans-Black";
+  src: url("/fonts/ProductSans-Black.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ProductSans-Bold";
+  src: url("/fonts/ProductSans-Bold.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ProductSans-Light";
+  src: url("/fonts/ProductSans-Light.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ProductSans-Thin";
+  src: url("/fonts/ProductSans-Thin.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+p, span,b, strong, a ,table td { 
+  font-family: "ProductSans-Light";
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "ProductSans-Bold";
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: ProductSans-Black;
+  background: #fafafa;
+}
+
+p, .upper_info {
+  color: #aaaccd;
+}
+
+.init_ {
+  padding: 20px;
+}
+
+.main {
+  background: #fafafa;
+}
+
+.bg-custom {
+  background: #fafafa !important;
+}
+
+.has-shadow {
+  -webkit-box-shadow: -1px 6px 5px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 6px 5px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 6px 5px -9px rgba(0, 0, 0, 0.75);
+}
+
+ul>li>a, .indicator {
+  color: #9294c1 !important;
+}
+
+.indicator {
+  margin-top: 10px;
+  padding-top: 20px !important;
+}
+
+ul>li:hover a {
+  background: #cfd2ff;
+  border-bottom: 4px solid #1c24c4;
+  color: #1c24c4 !important;
+}
+
+.navbar {
+  padding: 0px !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.notification_container {
+  padding-top: 10px;
+  padding-right: 40px;
+  /* margin-right: 50px; */
+}
+
+.input_container input {
+  position: relative;
+}
+
+.input_search {
+  z-index: 10000;
+  padding: 10px;
+  position: absolute;
+}
+
+.profile_container {
+  padding-top: 5px;
+  padding-right: 20px;
+  /* margin-left: 50px; */
+}
+
+.profile_container img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile_container .profile_icon {
+  margin-top: 6px;
+}
+
+.upper_text {
+  float: left;
+  padding: 5px;
+  padding-top: 8px;
+}
+
+.upper_info {
+  float: right;
+  padding: 5;
+  font-size: 30px;
+  padding-top: 9px;
+}
+
+.real_box {
+  background: #fff !important;
+  border-radius: 5px;
+  padding: 15px;
+  height: 100px;
+  width: 14rem;
+  -moz-box-shadow: -1px 0px 6px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 6px -3px rgba(0, 0, 0, 0.75);
+}
+
+.metric {
+  padding: 5px;
+  text-align: left;
+  width: 100%;
+  float: left;
+  margin-top: -16px;
+}
+
+.d-grid {
+  padding: 10px;
+}
+
+.div_summary {
+  background: #fff !important;
+  border-radius: 5px;
+  padding: 0px;
+  margin-left: 20px;
+  width: 14rem;
+  height: 230px;
+  -moz-box-shadow: -1px 0px 6px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 6px -3px rgba(0, 0, 0, 0.75);
+}
+
+.div_summary_two {
+  padding: 0px;
+  margin-left: 20px;
+  width: 14rem;
+  height: 230px;
+}
+
+.icon_holder, .main_text {
+  float: left;
+}
+
+.title_head {
+  padding: 15px;
+}
+
+.summary_content,.module_content {
+  padding: 1px;
+  padding-top: 10px;
+}           
+
+.summary_content>ul>li {
+  margin-left: -20px;
+  list-style: none;
+  line-height: 30px;
+  font-size: 14px;
+}
+.summary_content > ul> li > span {
+  padding-left:10px;
+}
+
+.icon_holder {
+  padding: 5px;
+  background: #1a96d0;
+  color: white !important;
+  border-radius: 5px;
+}
+
+.main_text {
+  text-align: center;
+  padding: 5px;
+  margin-left: 10px;
+}
+.main_text h6 {
+  font-size:14px;
+}
+
+
+/* Experiences */
+ul.experiences {
+    padding-left: 15px;
+    margin-top: -1px;
+}
+ul.experiences li {
+    padding-left: 10px;
+    margin-bottom: 2em;
+    list-style: disc;
+    /* background: url('../img/misc/list-bullet-darkgray.png') no-repeat; */
+}
+
+.where {
+    font-size: 13px; /* 18/16 -> 18px */
+    font-weight: 300;
+    display: inline;
+    margin-right: 0.5em;
+}
+
+.when {
+    float: left;
+    color: #b9b9b9;
+    font-size:13px;
+    
+}
+.description {
+    display: block;
+    margin-top: 0.5em;
+}
+
+
+/* BORDERS AND BULLETS */
+
+p {
+    /*CSS reset*/
+    margin-bottom: 0;
+}
+
+ul.experiences li {
+    position:relative; /* so that pseudoelements are positioned relatively to their "li"s*/
+    /* use padding-bottom instead of margin-bottom.*/ 
+    margin-bottom: 0; /* This overrides previously specified margin-bottom */
+    padding-bottom: 2.5em;
+}
+
+ul.experiences li:after {
+    /* bullets */
+    /* content: url('http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/RedDisc.svg/20px-RedDisc.svg.png');
+    */
+    position: absolute;
+    left: -26px; /*adjust manually*/
+    top: 0px;
+}
+
+ul.experiences li:before {
+    /* lines */
+    content:"";
+    position: absolute;
+    left: -12px; /* adjust manually */
+    border-left: 1px dotted black;
+    height: 100%;
+    width: 1px;
+}
+
+ul.experiences li:first-child:before {
+   /* first li's line */
+   top: 6px; /* moves the line down so that it disappears under the bullet. Adjust manually */
+}
+
+ul.experiences li:last-child:before {
+    /* last li's line */
+   height: 6px; /* shorten the line so it goes only up to the bullet. Is equal to first-child:before's top */
+}
+
+.center_table{
+  padding:20px;
+  margin-left:35px;
+  margin-top:-20px;
+}
+
+.balance{
+  padding:20px;
+  margin-top:-40px;
+}
+.balance_level{
+  padding:20px;
+  margin-top:-20px;
+}
+table {
+  background: #ffffff !important;
+  padding:10px;
+  -webkit-box-shadow: 0px 0px 5px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px -3px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px -3px rgba(0,0,0,0.75);
+}
+
+.heading{
+    color: #aaaccd !important;
+    font-family: "ProductSans-Light";
+}
+.status_two{
+  background: #ffe5b8 !important;
+  color: #f0b144 !important;
+  padding:3px;
+   border-radius:15px;
+   text-align:center;
+}
+.risk{
+  color: #189742;
+  text-align:center;
+}
+.mid_risk{
+  color:  #36318e;
+  text-align:center;
+}
+.high_risk{
+  text-align:center;
+  color:  #dd2621;
+}
+.status_one {
+  text-align:center;
+  border-radius:15px;
+   background:#d2d1fe;
+   color: #8b38ee !important;
+   padding:3px;
+}

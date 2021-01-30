@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from  'next/Link'
 import Navbar from './navs/Navbar'
 import Home from  './views/Home'
 export default function Layout() {
